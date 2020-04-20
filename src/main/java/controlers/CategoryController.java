@@ -16,7 +16,9 @@ public class CategoryController implements Controller {
     public ModelAndView handleRequest(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws Exception {
         List<Category> categoriesFromService = categoryService.getAllCategories();
         ModelAndView modelAndView = new ModelAndView();
+        //This is a jsp file name
         modelAndView.setViewName("index");
+        // Pass 1 veriable that will be use in jsp and 2 ModelAndView variable name
         modelAndView.addObject("categoriesForJsp", categoriesFromService);
         return modelAndView;
     }

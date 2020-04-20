@@ -28,6 +28,7 @@ public class CategoryRepositoryImpl implements CategoryRepository{
 //Create constants with "sql" queries
     private static final String GET_ALL_CATEGORIES = "SELECT * from category";
     private static final String ADD_CATEGORIES = "INSERT INTO category (id, category_name) VALUE (?, ?)";
+    private static final String DELETE_CATEGORIES = "DELETE FROM category WHERE category_name = ?";
 
 //RowMapper convert "sql table" to the "java object"
     private RowMapper rowMapperForAllCat = new RowMapper() {
@@ -47,11 +48,11 @@ public class CategoryRepositoryImpl implements CategoryRepository{
 
 
     public void add(Category category) {
-    //    jdbcTemplate.update(ADD_CATEGORIES, new Long[]{category.getId()}, category.getCategoryName())
-    };
+        // ? jdbcTemplate.update(ADD_CATEGORIES, new Long[]{category.getId()}, category.getCategoryName());
+    }
 
     public void delete(Category name) {
-
+       // ? jdbcTemplate.execute(DELETE_CATEGORIES, name);
     }
 
 }

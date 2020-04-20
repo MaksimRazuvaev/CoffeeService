@@ -17,7 +17,7 @@ public class ProductRepositoryImpl implements ProductRepository {
     }
 
     private static final String GET_ALL_PRODUCT = "SELECT * FROM product";
-    private static final String GET_PRODUCT_BY_CATEGORY_ID = "SELECT * FROM product WHERE category_id = 1";
+    private static final String GET_PRODUCT_BY_CATEGORY_ID = "SELECT * FROM product WHERE category_id = ?";
     // ?? private static final String GET_PRODUCT_BY_CATEGORY_ID = "SELECT * FROM product WHERE category_id = ?";
 
     private RowMapper rowMapperForAllProduct = new RowMapper() {
@@ -37,7 +37,7 @@ public class ProductRepositoryImpl implements ProductRepository {
         return jdbcTemplate.query(GET_ALL_PRODUCT, rowMapperForAllProduct);
     }
 
-    public List<Product> getProductByCategoryId(int categoryId) {
-        return jdbcTemplate.query(GET_PRODUCT_BY_CATEGORY_ID, rowMapperForAllProduct);
+    public Product getProductByCategoryId(int categoryId) {
+        //return jdbcTemplate.query(GET_PRODUCT_BY_CATEGORY_ID, rowMapperForAllProduct);
     }
 }
