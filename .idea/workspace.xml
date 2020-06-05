@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d1b953e-1e7f-40a3-9be3-1e15a23b5915" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controlers/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/controlers/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controlers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/controlers/ProductController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,6 +235,8 @@
       <workItem from="1587909964855" duration="409000" />
       <workItem from="1587910654788" duration="278000" />
       <workItem from="1587913018273" duration="3129000" />
+      <workItem from="1590244386155" duration="124000" />
+      <workItem from="1590244619290" duration="605000" />
     </task>
     <servers />
   </component>
@@ -251,9 +252,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587326016670" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587055926474">
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590244462535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1590244462535" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1590244508465">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1590244508465" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587055926474" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1586702283422">
       <screen x="0" y="0" width="1536" height="824" />
